@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fish It Store - Roblox</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      text-align: center;
+      padding: 30px;
+      background: rgba(0,0,0,0.6);
+      border-radius: 15px;
+      margin-bottom: 30px;
+    }
+    h1 { color: #00ffcc; }
+    .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .product-card {
+      background: rgba(255,255,255,0.1);
+      border-radius: 15px;
+      padding: 15px;
+      text-align: center;
+      transition: 0.3s;
+    }
+    .product-card:hover {
+      transform: translateY(-10px);
+      background: rgba(0, 255, 200, 0.15);
+    }
+    .product-card h3 {
+      color: #00ffcc;
+      margin: 10px 0;
+    }
+    .price {
+      font-size: 1.4em;
+      font-weight: bold;
+      color: #ffd700;
+    }
+    .wa-button {
+      background: #25D366;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      margin-top: 10px;
+      font-size: 16px;
+    }
+    .wa-button:hover {
+      background: #20b557;
+    }
+
+    .floating-wa {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25D366;
+      color: white;
+      width: 65px;
+      height: 65px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 30px;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.5);
+      z-index: 1000;
+      text-decoration: none;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 50px;
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>🐟 Fish It Store</h1>
+    <p><strong>Official Roblox Item Shop</strong></p>
+    <p>Harga Termurah • Trusted • Fast Response</p>
+  </header>
+
+  <div class="product-grid">
+
+    <div class="product-card">
+      <h3>1. Eclipse Katana</h3>
+      <p>⚔️ Katana gelap yang sangat kuat</p>
+      <div class="price">Rp20.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Eclipse%20Katana" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <!-- Product lain tetap sama, hanya link WA yang sudah diperbaiki -->
+
+    <div class="product-card">
+      <h3>2. The Vanquisher</h3>
+      <p>🛡️ Senjata legendaris pemusnah</p>
+      <div class="price">Rp20.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20The%20Vanquisher" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>3. Princess Parasol</h3>
+      <p>☂️ Payung mewah aesthetic</p>
+      <div class="price">Rp40.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Princess%20Parasol" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>4. Soul Scythe</h3>
+      <p>🌑 Sabit jiwa yang mematikan</p>
+      <div class="price">Rp20.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Soul%20Scythe" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>5. Secret Tumbal</h3>
+      <p>🔮 Item secret spesial</p>
+      <div class="price">Rp500</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Secret%20Tumbal" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>6. Cursed Kraken</h3>
+      <p>🐙 Kraken terkutuk epic</p>
+      <div class="price">Rp10.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Cursed%20Kraken" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>7. Lochness Monster</h3>
+      <p>🐲 Monster Loch Ness langka</p>
+      <div class="price">Rp4.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Lochness%20Monster" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+    <div class="product-card">
+      <h3>8. Ban Hammer</h3>
+      <p>🔨 Palu Ban Legendaris</p>
+      <div class="price">Rp30.000</div>
+      <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20admin,%20saya%20mau%20beli%20Ban%20Hammer" target="_blank" class="wa-button">💬 Pesan via WhatsApp</a>
+    </div>
+
+  </div>
+
+  <footer>
+    <p><strong>Hubungi Admin via WhatsApp untuk Order Cepat</strong></p>
+    <a href="https://wa.me/628XXXXXXXXXX?text=Halo%20Fish%20It%20Store,%20saya%20ingin%20order" target="_blank" class="wa-button" style="font-size: 18px; padding: 14px 30px;">
+      💬 Chat Admin Sekarang
+    </a>
+  </footer>
+
+  <!-- Floating WA -->
+  <a href="https://wa.me/6283843985335?text=Halo%20Fish%20It%20Store" target="_blank" class="floating-wa">
+    💬
+  </a>
+
+</body>
+</html>
